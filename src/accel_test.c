@@ -6,7 +6,7 @@
 
 #include <pebble.h>
 
-#define TAP_NOT_DATA true
+#define TAP_NOT_DATA false
 
 static Window *s_main_window;
 static TextLayer *s_output_layer;
@@ -73,6 +73,7 @@ static void main_window_unload(Window *window) {
 static void init() {
   // Create main Window
   s_main_window = window_create();
+  
   window_set_window_handlers(s_main_window, (WindowHandlers) {
     .load = main_window_load,
     .unload = main_window_unload
