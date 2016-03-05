@@ -12,6 +12,11 @@
     },
     "sdkVersion": "3",
     "shortName": "DrinkTracker",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
     "uuid": "56b62d71-12bf-4a56-afc1-b2437b25aa9d",
     "versionLabel": "1.0",
     "watchapp": {
