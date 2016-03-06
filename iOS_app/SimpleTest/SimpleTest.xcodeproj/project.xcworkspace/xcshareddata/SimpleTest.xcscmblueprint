@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21C07F6C99684F61369A3D3CE9F6AB17E982519D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "21C07F6C99684F61369A3D3CE9F6AB17E982519D" : 0,
+    "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5D642B7C-6953-4452-9A30-79FBFE5378A7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "21C07F6C99684F61369A3D3CE9F6AB17E982519D" : "EggsAndWine\/",
+    "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SimpleTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS_app\/SimpleTest\/SimpleTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tkhunkhe\/EggsAndWine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21C07F6C99684F61369A3D3CE9F6AB17E982519D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tkhunkhe\/practice",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28"
+    }
+  ]
+}
