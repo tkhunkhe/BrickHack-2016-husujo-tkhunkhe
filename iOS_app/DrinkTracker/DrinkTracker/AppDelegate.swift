@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             if let watch = watch {
                 watch.appMessagesLaunch({ (_, error) in
                     if error != nil {
-                        println("App launched!")
+                        print("App launched!")
                     }
                 })
             }
@@ -53,8 +53,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         var uuidBytes = Array<UInt8>(count:16, repeatedValue:0)
         let uuid = NSUUID(UUIDString: "c42c3103-69ec-42d0-9020-0c86d3028d56")
         uuid?.getUUIDBytes(&uuidBytes)
-        pebble.appUUID = NSData(bytes: &uuidBytes, length: uuidBytes.count)
-        
+        //pebble.appUUID = NSData(bytes: &uuidBytes, length: uuidBytes.count)
+        pebble.appUUID = uuid;
         watch = pebble.lastConnectedWatch()
         
         

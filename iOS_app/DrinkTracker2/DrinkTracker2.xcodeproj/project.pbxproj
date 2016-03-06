@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		614FE0081C8C1B5500D8B7D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE0071C8C1B5500D8B7D3 /* main.m */; };
+		614FE00B1C8C1B5500D8B7D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE00A1C8C1B5500D8B7D3 /* AppDelegate.m */; };
+		614FE00E1C8C1B5500D8B7D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE00D1C8C1B5500D8B7D3 /* ViewController.m */; };
+		614FE0111C8C1B5500D8B7D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614FE00F1C8C1B5500D8B7D3 /* Main.storyboard */; };
+		614FE0131C8C1B5500D8B7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614FE0121C8C1B5500D8B7D3 /* Assets.xcassets */; };
+		614FE0161C8C1B5500D8B7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614FE0141C8C1B5500D8B7D3 /* LaunchScreen.storyboard */; };
+		614FE0211C8C1B5600D8B7D3 /* DrinkTracker2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE0201C8C1B5600D8B7D3 /* DrinkTracker2Tests.m */; };
+		614FE02C1C8C1B5600D8B7D3 /* DrinkTracker2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE02B1C8C1B5600D8B7D3 /* DrinkTracker2UITests.m */; };
+		614FE0311C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 614FE0301C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App.app */; };
+		614FE0371C8C1B5600D8B7D3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614FE0351C8C1B5600D8B7D3 /* Interface.storyboard */; };
+		614FE0391C8C1B5600D8B7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614FE0381C8C1B5600D8B7D3 /* Assets.xcassets */; };
+		614FE0401C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 614FE03F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		614FE0481C8C1B5700D8B7D3 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE0471C8C1B5700D8B7D3 /* InterfaceController.m */; };
+		614FE04B1C8C1B5700D8B7D3 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE04A1C8C1B5700D8B7D3 /* ExtensionDelegate.m */; };
+		614FE04E1C8C1B5700D8B7D3 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614FE04D1C8C1B5700D8B7D3 /* NotificationController.m */; };
+		614FE0501C8C1B5700D8B7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614FE04F1C8C1B5700D8B7D3 /* Assets.xcassets */; };
+		614FE0661C8C1E0300D8B7D3 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE0651C8C1E0300D8B7D3 /* PebbleKit.framework */; };
+		614FE0681C8C1E1000D8B7D3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE0671C8C1E1000D8B7D3 /* CoreBluetooth.framework */; };
+		614FE06A1C8C1E1800D8B7D3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE0691C8C1E1800D8B7D3 /* ExternalAccessory.framework */; };
+		614FE06C1C8C1E2200D8B7D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE06B1C8C1E2200D8B7D3 /* CoreGraphics.framework */; };
+		614FE06E1C8C1E2900D8B7D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE06D1C8C1E2900D8B7D3 /* UIKit.framework */; };
+		614FE0701C8C1E3200D8B7D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE06F1C8C1E3200D8B7D3 /* Foundation.framework */; };
+		614FE0721C8C28B700D8B7D3 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE0651C8C1E0300D8B7D3 /* PebbleKit.framework */; };
+		614FE0731C8C28B700D8B7D3 /* PebbleKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 614FE0651C8C1E0300D8B7D3 /* PebbleKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		614FE01D1C8C1B5600D8B7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614FDFFB1C8C1B5500D8B7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614FE0021C8C1B5500D8B7D3;
+			remoteInfo = DrinkTracker2;
+		};
+		614FE0281C8C1B5600D8B7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614FDFFB1C8C1B5500D8B7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614FE0021C8C1B5500D8B7D3;
+			remoteInfo = DrinkTracker2;
+		};
+		614FE0321C8C1B5600D8B7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614FDFFB1C8C1B5500D8B7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614FE02F1C8C1B5600D8B7D3;
+			remoteInfo = "DrinkTracker2 WatchKit App";
+		};
+		614FE0411C8C1B5600D8B7D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 614FDFFB1C8C1B5500D8B7D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614FE03E1C8C1B5600D8B7D3;
+			remoteInfo = "DrinkTracker2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		614FE0571C8C1B5700D8B7D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				614FE0401C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE05B1C8C1B5700D8B7D3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				614FE0311C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE0741C8C28B700D8B7D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				614FE0731C8C28B700D8B7D3 /* PebbleKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		614FE0031C8C1B5500D8B7D3 /* DrinkTracker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkTracker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		614FE0071C8C1B5500D8B7D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		614FE0091C8C1B5500D8B7D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		614FE00A1C8C1B5500D8B7D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		614FE00C1C8C1B5500D8B7D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		614FE00D1C8C1B5500D8B7D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		614FE0101C8C1B5500D8B7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		614FE0121C8C1B5500D8B7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614FE0151C8C1B5500D8B7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		614FE0171C8C1B5500D8B7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614FE01C1C8C1B5600D8B7D3 /* DrinkTracker2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkTracker2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614FE0201C8C1B5600D8B7D3 /* DrinkTracker2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkTracker2Tests.m; sourceTree = "<group>"; };
+		614FE0221C8C1B5600D8B7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614FE0271C8C1B5600D8B7D3 /* DrinkTracker2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkTracker2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614FE02B1C8C1B5600D8B7D3 /* DrinkTracker2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkTracker2UITests.m; sourceTree = "<group>"; };
+		614FE02D1C8C1B5600D8B7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614FE0301C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DrinkTracker2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614FE0361C8C1B5600D8B7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		614FE0381C8C1B5600D8B7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614FE03A1C8C1B5600D8B7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614FE03F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DrinkTracker2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614FE0451C8C1B5700D8B7D3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		614FE0461C8C1B5700D8B7D3 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		614FE0471C8C1B5700D8B7D3 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		614FE0491C8C1B5700D8B7D3 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		614FE04A1C8C1B5700D8B7D3 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		614FE04C1C8C1B5700D8B7D3 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		614FE04D1C8C1B5700D8B7D3 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		614FE04F1C8C1B5700D8B7D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614FE0511C8C1B5700D8B7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614FE0651C8C1E0300D8B7D3 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "pebble-ios-sdk/PebbleKit.framework"; sourceTree = "<group>"; };
+		614FE0671C8C1E1000D8B7D3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		614FE0691C8C1E1800D8B7D3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		614FE06B1C8C1E2200D8B7D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		614FE06D1C8C1E2900D8B7D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		614FE06F1C8C1E3200D8B7D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614FE0001C8C1B5500D8B7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE0701C8C1E3200D8B7D3 /* Foundation.framework in Frameworks */,
+				614FE0721C8C28B700D8B7D3 /* PebbleKit.framework in Frameworks */,
+				614FE06E1C8C1E2900D8B7D3 /* UIKit.framework in Frameworks */,
+				614FE06C1C8C1E2200D8B7D3 /* CoreGraphics.framework in Frameworks */,
+				614FE06A1C8C1E1800D8B7D3 /* ExternalAccessory.framework in Frameworks */,
+				614FE0681C8C1E1000D8B7D3 /* CoreBluetooth.framework in Frameworks */,
+				614FE0661C8C1E0300D8B7D3 /* PebbleKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE0191C8C1B5600D8B7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE0241C8C1B5600D8B7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE03C1C8C1B5600D8B7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614FDFFA1C8C1B5500D8B7D3 = {
+			isa = PBXGroup;
+			children = (
+				614FE06F1C8C1E3200D8B7D3 /* Foundation.framework */,
+				614FE06D1C8C1E2900D8B7D3 /* UIKit.framework */,
+				614FE06B1C8C1E2200D8B7D3 /* CoreGraphics.framework */,
+				614FE0691C8C1E1800D8B7D3 /* ExternalAccessory.framework */,
+				614FE0671C8C1E1000D8B7D3 /* CoreBluetooth.framework */,
+				614FE0651C8C1E0300D8B7D3 /* PebbleKit.framework */,
+				614FE0051C8C1B5500D8B7D3 /* DrinkTracker2 */,
+				614FE01F1C8C1B5600D8B7D3 /* DrinkTracker2Tests */,
+				614FE02A1C8C1B5600D8B7D3 /* DrinkTracker2UITests */,
+				614FE0341C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App */,
+				614FE0431C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension */,
+				614FE0041C8C1B5500D8B7D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		614FE0041C8C1B5500D8B7D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0031C8C1B5500D8B7D3 /* DrinkTracker2.app */,
+				614FE01C1C8C1B5600D8B7D3 /* DrinkTracker2Tests.xctest */,
+				614FE0271C8C1B5600D8B7D3 /* DrinkTracker2UITests.xctest */,
+				614FE0301C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App.app */,
+				614FE03F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614FE0051C8C1B5500D8B7D3 /* DrinkTracker2 */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0091C8C1B5500D8B7D3 /* AppDelegate.h */,
+				614FE00A1C8C1B5500D8B7D3 /* AppDelegate.m */,
+				614FE00C1C8C1B5500D8B7D3 /* ViewController.h */,
+				614FE00D1C8C1B5500D8B7D3 /* ViewController.m */,
+				614FE00F1C8C1B5500D8B7D3 /* Main.storyboard */,
+				614FE0121C8C1B5500D8B7D3 /* Assets.xcassets */,
+				614FE0141C8C1B5500D8B7D3 /* LaunchScreen.storyboard */,
+				614FE0171C8C1B5500D8B7D3 /* Info.plist */,
+				614FE0061C8C1B5500D8B7D3 /* Supporting Files */,
+			);
+			path = DrinkTracker2;
+			sourceTree = "<group>";
+		};
+		614FE0061C8C1B5500D8B7D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0071C8C1B5500D8B7D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		614FE01F1C8C1B5600D8B7D3 /* DrinkTracker2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0201C8C1B5600D8B7D3 /* DrinkTracker2Tests.m */,
+				614FE0221C8C1B5600D8B7D3 /* Info.plist */,
+			);
+			path = DrinkTracker2Tests;
+			sourceTree = "<group>";
+		};
+		614FE02A1C8C1B5600D8B7D3 /* DrinkTracker2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				614FE02B1C8C1B5600D8B7D3 /* DrinkTracker2UITests.m */,
+				614FE02D1C8C1B5600D8B7D3 /* Info.plist */,
+			);
+			path = DrinkTracker2UITests;
+			sourceTree = "<group>";
+		};
+		614FE0341C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0351C8C1B5600D8B7D3 /* Interface.storyboard */,
+				614FE0381C8C1B5600D8B7D3 /* Assets.xcassets */,
+				614FE03A1C8C1B5600D8B7D3 /* Info.plist */,
+			);
+			path = "DrinkTracker2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		614FE0431C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0461C8C1B5700D8B7D3 /* InterfaceController.h */,
+				614FE0471C8C1B5700D8B7D3 /* InterfaceController.m */,
+				614FE0491C8C1B5700D8B7D3 /* ExtensionDelegate.h */,
+				614FE04A1C8C1B5700D8B7D3 /* ExtensionDelegate.m */,
+				614FE04C1C8C1B5700D8B7D3 /* NotificationController.h */,
+				614FE04D1C8C1B5700D8B7D3 /* NotificationController.m */,
+				614FE04F1C8C1B5700D8B7D3 /* Assets.xcassets */,
+				614FE0511C8C1B5700D8B7D3 /* Info.plist */,
+				614FE0441C8C1B5600D8B7D3 /* Supporting Files */,
+			);
+			path = "DrinkTracker2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		614FE0441C8C1B5600D8B7D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				614FE0451C8C1B5700D8B7D3 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		614FE0021C8C1B5500D8B7D3 /* DrinkTracker2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614FE05C1C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2" */;
+			buildPhases = (
+				614FDFFF1C8C1B5500D8B7D3 /* Sources */,
+				614FE0001C8C1B5500D8B7D3 /* Frameworks */,
+				614FE0011C8C1B5500D8B7D3 /* Resources */,
+				614FE05B1C8C1B5700D8B7D3 /* Embed Watch Content */,
+				614FE0741C8C28B700D8B7D3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614FE0331C8C1B5600D8B7D3 /* PBXTargetDependency */,
+			);
+			name = DrinkTracker2;
+			productName = DrinkTracker2;
+			productReference = 614FE0031C8C1B5500D8B7D3 /* DrinkTracker2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		614FE01B1C8C1B5600D8B7D3 /* DrinkTracker2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614FE05F1C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2Tests" */;
+			buildPhases = (
+				614FE0181C8C1B5600D8B7D3 /* Sources */,
+				614FE0191C8C1B5600D8B7D3 /* Frameworks */,
+				614FE01A1C8C1B5600D8B7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614FE01E1C8C1B5600D8B7D3 /* PBXTargetDependency */,
+			);
+			name = DrinkTracker2Tests;
+			productName = DrinkTracker2Tests;
+			productReference = 614FE01C1C8C1B5600D8B7D3 /* DrinkTracker2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		614FE0261C8C1B5600D8B7D3 /* DrinkTracker2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614FE0621C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2UITests" */;
+			buildPhases = (
+				614FE0231C8C1B5600D8B7D3 /* Sources */,
+				614FE0241C8C1B5600D8B7D3 /* Frameworks */,
+				614FE0251C8C1B5600D8B7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614FE0291C8C1B5600D8B7D3 /* PBXTargetDependency */,
+			);
+			name = DrinkTracker2UITests;
+			productName = DrinkTracker2UITests;
+			productReference = 614FE0271C8C1B5600D8B7D3 /* DrinkTracker2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		614FE02F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614FE0581C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2 WatchKit App" */;
+			buildPhases = (
+				614FE02E1C8C1B5600D8B7D3 /* Resources */,
+				614FE0571C8C1B5700D8B7D3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614FE0421C8C1B5600D8B7D3 /* PBXTargetDependency */,
+			);
+			name = "DrinkTracker2 WatchKit App";
+			productName = "DrinkTracker2 WatchKit App";
+			productReference = 614FE0301C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		614FE03E1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614FE0541C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2 WatchKit Extension" */;
+			buildPhases = (
+				614FE03B1C8C1B5600D8B7D3 /* Sources */,
+				614FE03C1C8C1B5600D8B7D3 /* Frameworks */,
+				614FE03D1C8C1B5600D8B7D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrinkTracker2 WatchKit Extension";
+			productName = "DrinkTracker2 WatchKit Extension";
+			productReference = 614FE03F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		614FDFFB1C8C1B5500D8B7D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EggsandWine;
+				TargetAttributes = {
+					614FE0021C8C1B5500D8B7D3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PEFQ7V937S;
+					};
+					614FE01B1C8C1B5600D8B7D3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PEFQ7V937S;
+						TestTargetID = 614FE0021C8C1B5500D8B7D3;
+					};
+					614FE0261C8C1B5600D8B7D3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PEFQ7V937S;
+						TestTargetID = 614FE0021C8C1B5500D8B7D3;
+					};
+					614FE02F1C8C1B5600D8B7D3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PEFQ7V937S;
+					};
+					614FE03E1C8C1B5600D8B7D3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PEFQ7V937S;
+					};
+				};
+			};
+			buildConfigurationList = 614FDFFE1C8C1B5500D8B7D3 /* Build configuration list for PBXProject "DrinkTracker2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 614FDFFA1C8C1B5500D8B7D3;
+			productRefGroup = 614FE0041C8C1B5500D8B7D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614FE0021C8C1B5500D8B7D3 /* DrinkTracker2 */,
+				614FE01B1C8C1B5600D8B7D3 /* DrinkTracker2Tests */,
+				614FE0261C8C1B5600D8B7D3 /* DrinkTracker2UITests */,
+				614FE02F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App */,
+				614FE03E1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614FE0011C8C1B5500D8B7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE0161C8C1B5500D8B7D3 /* LaunchScreen.storyboard in Resources */,
+				614FE0131C8C1B5500D8B7D3 /* Assets.xcassets in Resources */,
+				614FE0111C8C1B5500D8B7D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE01A1C8C1B5600D8B7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE0251C8C1B5600D8B7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE02E1C8C1B5600D8B7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE0391C8C1B5600D8B7D3 /* Assets.xcassets in Resources */,
+				614FE0371C8C1B5600D8B7D3 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE03D1C8C1B5600D8B7D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE0501C8C1B5700D8B7D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614FDFFF1C8C1B5500D8B7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE00E1C8C1B5500D8B7D3 /* ViewController.m in Sources */,
+				614FE00B1C8C1B5500D8B7D3 /* AppDelegate.m in Sources */,
+				614FE0081C8C1B5500D8B7D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE0181C8C1B5600D8B7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE0211C8C1B5600D8B7D3 /* DrinkTracker2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE0231C8C1B5600D8B7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE02C1C8C1B5600D8B7D3 /* DrinkTracker2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614FE03B1C8C1B5600D8B7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614FE04B1C8C1B5700D8B7D3 /* ExtensionDelegate.m in Sources */,
+				614FE0481C8C1B5700D8B7D3 /* InterfaceController.m in Sources */,
+				614FE04E1C8C1B5700D8B7D3 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		614FE01E1C8C1B5600D8B7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614FE0021C8C1B5500D8B7D3 /* DrinkTracker2 */;
+			targetProxy = 614FE01D1C8C1B5600D8B7D3 /* PBXContainerItemProxy */;
+		};
+		614FE0291C8C1B5600D8B7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614FE0021C8C1B5500D8B7D3 /* DrinkTracker2 */;
+			targetProxy = 614FE0281C8C1B5600D8B7D3 /* PBXContainerItemProxy */;
+		};
+		614FE0331C8C1B5600D8B7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614FE02F1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit App */;
+			targetProxy = 614FE0321C8C1B5600D8B7D3 /* PBXContainerItemProxy */;
+		};
+		614FE0421C8C1B5600D8B7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 614FE03E1C8C1B5600D8B7D3 /* DrinkTracker2 WatchKit Extension */;
+			targetProxy = 614FE0411C8C1B5600D8B7D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		614FE00F1C8C1B5500D8B7D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614FE0101C8C1B5500D8B7D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		614FE0141C8C1B5500D8B7D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614FE0151C8C1B5500D8B7D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		614FE0351C8C1B5600D8B7D3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614FE0361C8C1B5600D8B7D3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614FE0521C8C1B5700D8B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		614FE0531C8C1B5700D8B7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		614FE0551C8C1B5700D8B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DrinkTracker2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		614FE0561C8C1B5700D8B7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DrinkTracker2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		614FE0591C8C1B5700D8B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DrinkTracker2_WatchKit_Extension;
+				INFOPLIST_FILE = "DrinkTracker2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		614FE05A1C8C1B5700D8B7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DrinkTracker2_WatchKit_Extension;
+				INFOPLIST_FILE = "DrinkTracker2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		614FE05D1C8C1B5700D8B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pebble-ios-sdk",
+				);
+				INFOPLIST_FILE = DrinkTracker2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		614FE05E1C8C1B5700D8B7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pebble-ios-sdk",
+				);
+				INFOPLIST_FILE = DrinkTracker2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		614FE0601C8C1B5700D8B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkTracker2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkTracker2.app/DrinkTracker2";
+			};
+			name = Debug;
+		};
+		614FE0611C8C1B5700D8B7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkTracker2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkTracker2.app/DrinkTracker2";
+			};
+			name = Release;
+		};
+		614FE0631C8C1B5700D8B7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkTracker2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkTracker2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		614FE0641C8C1B5700D8B7D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkTracker2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkTracker2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614FDFFE1C8C1B5500D8B7D3 /* Build configuration list for PBXProject "DrinkTracker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614FE0521C8C1B5700D8B7D3 /* Debug */,
+				614FE0531C8C1B5700D8B7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614FE0541C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614FE0551C8C1B5700D8B7D3 /* Debug */,
+				614FE0561C8C1B5700D8B7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		614FE0581C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614FE0591C8C1B5700D8B7D3 /* Debug */,
+				614FE05A1C8C1B5700D8B7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		614FE05C1C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614FE05D1C8C1B5700D8B7D3 /* Debug */,
+				614FE05E1C8C1B5700D8B7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		614FE05F1C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614FE0601C8C1B5700D8B7D3 /* Debug */,
+				614FE0611C8C1B5700D8B7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		614FE0621C8C1B5700D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTracker2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614FE0631C8C1B5700D8B7D3 /* Debug */,
+				614FE0641C8C1B5700D8B7D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 614FDFFB1C8C1B5500D8B7D3 /* Project object */;
+}

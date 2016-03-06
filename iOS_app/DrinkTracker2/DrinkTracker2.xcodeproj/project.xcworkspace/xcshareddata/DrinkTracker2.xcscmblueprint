@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21C07F6C99684F61369A3D3CE9F6AB17E982519D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "21C07F6C99684F61369A3D3CE9F6AB17E982519D" : 0,
+    "06B2D07A2DE9E5CB6180073320694551499941D0" : 0,
+    "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02A9B9DD-E654-40E0-8724-D45F2D09292F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "21C07F6C99684F61369A3D3CE9F6AB17E982519D" : "EggsAndWine\/",
+    "06B2D07A2DE9E5CB6180073320694551499941D0" : "EggsAndWine\/iOS_app\/DrinkTracker2\/pebble-ios-sdk\/",
+    "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DrinkTracker2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS_app\/DrinkTracker2\/DrinkTracker2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pebble\/pebble-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06B2D07A2DE9E5CB6180073320694551499941D0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tkhunkhe\/EggsAndWine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21C07F6C99684F61369A3D3CE9F6AB17E982519D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tkhunkhe\/practice",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28"
+    }
+  ]
+}

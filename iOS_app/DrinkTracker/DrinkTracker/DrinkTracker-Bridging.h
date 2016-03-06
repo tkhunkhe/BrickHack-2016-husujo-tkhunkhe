@@ -6,4 +6,5 @@
 //  Copyright © 2016 EggsandWine. All rights reserved.
 //
 
-#import "PebbleKit.h"
+
+#import "PebbleKit/PebbleKit.h"

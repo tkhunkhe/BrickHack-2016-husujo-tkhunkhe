@@ -443,7 +443,6 @@
 		614FDFA41C8BCCE400D8B7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DrinkTracker/DrinkTracker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -454,17 +453,16 @@
 				INFOPLIST_FILE = DrinkTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = DrinkTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "DrinkTracker-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrinkTracker/DrinkTracker-Bridging.h";
 			};
 			name = Debug;
 		};
 		614FDFA51C8BCCE400D8B7D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DrinkTracker/DrinkTracker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -475,10 +473,10 @@
 				INFOPLIST_FILE = DrinkTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = DrinkTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "DrinkTracker-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrinkTracker/DrinkTracker-Bridging.h";
 			};
 			name = Release;
 		};
@@ -549,6 +547,7 @@
 				614FDFA51C8BCCE400D8B7D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		614FDFA61C8BCCE400D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +556,7 @@
 				614FDFA81C8BCCE400D8B7D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		614FDFA91C8BCCE400D8B7D3 /* Build configuration list for PBXNativeTarget "DrinkTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +565,7 @@
 				614FDFAB1C8BCCE400D8B7D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
