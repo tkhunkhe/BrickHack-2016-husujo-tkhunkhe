@@ -1,0 +1,19 @@
+{
+  "uuid": "c42c3103-69ec-42d0-9020-0c86d3028d56",
+  "shortName": "Swift",
+  "longName": "Swift",
+  "companyName": "MakeAwesomeHappen",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "enableMultiJS": true,
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

@@ -65,6 +65,7 @@
 		614FDFB51C8BD27400D8B7D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		614FDFB71C8BD28400D8B7D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		614FDFB91C8BD28D00D8B7D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		614FDFF81C8C103C00D8B7D3 /* DrinkTracker-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DrinkTracker-Bridging.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +138,7 @@
 				614FDF871C8BCCE300D8B7D3 /* LaunchScreen.storyboard */,
 				614FDF8A1C8BCCE300D8B7D3 /* Info.plist */,
 				614FDF7B1C8BCCE300D8B7D3 /* DrinkTracker.xcdatamodeld */,
+				614FDFF81C8C103C00D8B7D3 /* DrinkTracker-Bridging.h */,
 			);
 			path = DrinkTracker;
 			sourceTree = "<group>";
@@ -455,6 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrinkTracker-Swift.h";
 			};
 			name = Debug;
 		};
@@ -475,6 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = EggAndWine.DrinkTracker.DrinkTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrinkTracker-Swift.h";
 			};
 			name = Release;
 		};

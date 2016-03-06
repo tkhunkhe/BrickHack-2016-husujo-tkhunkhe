@@ -14,9 +14,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 
     var window: UIWindow?
     
-
+    // add pebble watch lunch func!
+    /*This is a variable to keep a reference to the watch. When it’s set to a non-nil value it’ll attempt to launch the watch application on the Pebble.
+    */
+    var watch: PBWatch? {
+        didSet {
+            if let watch = watch {
+                watch.appMessagesLaunch({ (_, error) in
+                    if error != nil {
+                        println("App launched!")
+                    }
+                })
+            }
+        }
+    }
     
-
+    
+    
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         let splitViewController = self.window!.rootViewController as! UISplitViewController
@@ -27,6 +43,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let masterNavigationController = splitViewController.viewControllers[0] as! UINavigationController
         let controller = masterNavigationController.topViewController as! MasterViewController
         controller.managedObjectContext = self.managedObjectContext
+        
+        
+        // PBwatch
+        
+        let pebble = PBPebbleCentral.defaultCentral()
+        pebble.delegate = self
+        
+        var uuidBytes = Array<UInt8>(count:16, repeatedValue:0)
+        let uuid = NSUUID(UUIDString: "c42c3103-69ec-42d0-9020-0c86d3028d56")
+        uuid?.getUUIDBytes(&uuidBytes)
+        pebble.appUUID = NSData(bytes: &uuidBytes, length: uuidBytes.count)
+        
+        watch = pebble.lastConnectedWatch()
+        
+        
+        
         return true
     }
 
@@ -127,6 +159,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             }
         }
     }
+    
+
+    
+    
 
 }
+
+
+
+// PBwatch
+extension AppDelegate: PBPebbleCentralDelegate {
+    func pebbleCentral(central: PBPebbleCentral!, watchDidConnect watch: PBWatch!, isNew: Bool) {
+        if self.watch != watch {
+            self.watch = watch
+        }
+    }
+}
+
 
