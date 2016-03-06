@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD0D8D0F-B86B-4E6D-9FE4-198C9CC08123</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SimpleTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>21C07F6C99684F61369A3D3CE9F6AB17E982519D</key>
+		<string>https://github.com/tkhunkhe/EggsAndWine.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS_app/SimpleTest/SimpleTest/SimpleTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>21C07F6C99684F61369A3D3CE9F6AB17E982519D</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tkhunkhe/EggsAndWine.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21C07F6C99684F61369A3D3CE9F6AB17E982519D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21C07F6C99684F61369A3D3CE9F6AB17E982519D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EggsAndWine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

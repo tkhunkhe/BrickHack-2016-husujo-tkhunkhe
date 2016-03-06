@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  SimpleTest
+//  test
 //
-//  Created by Kwan Khunkhet on 3/5/16.
-//  Copyright © 2016 EggsandWine. All rights reserved.
+//  Created by Hunter S. Johnston on 3/5/16.
+//  Copyright (c) 2016 test. All rights reserved.
 //
 
 import UIKit
