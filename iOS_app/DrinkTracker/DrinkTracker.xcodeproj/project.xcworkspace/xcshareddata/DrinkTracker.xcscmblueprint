@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "21C07F6C99684F61369A3D3CE9F6AB17E982519D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "21C07F6C99684F61369A3D3CE9F6AB17E982519D" : 0,
+    "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0990EC20-3421-4C37-B5B3-4E3D113DB7C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "21C07F6C99684F61369A3D3CE9F6AB17E982519D" : "EggsAndWine\/",
+    "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DrinkTracker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS_app\/DrinkTracker\/DrinkTracker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tkhunkhe\/EggsAndWine.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21C07F6C99684F61369A3D3CE9F6AB17E982519D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tkhunkhe\/practice",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C1C5B632CEFC5FA4CDDC13686D3D52150CF70F28"
+    }
+  ]
+}
