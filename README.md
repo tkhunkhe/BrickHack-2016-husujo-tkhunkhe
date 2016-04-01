@@ -1,5 +1,2 @@
-Well, we have nothing so far. But if you want to know about Egg and Wine .. 
-Here is where you should check out!
-http://eggwinediet.com/
-
-yoyoyoyoyoyoyoyoyo
+This project was for BrickHack @ RIT 2016
+by me tkhunkhe and Hunter (https://github.com/husujo)
